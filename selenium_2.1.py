@@ -34,10 +34,6 @@ try:
     # ожидание чтобы визуально оценить результаты прохождения скрипта
     time.sleep(10)
 
-    # ждем загрузки страницы
-    # с помощью assert проверяем, что ожидаемый текст совпадает с текстом на странице сайта
-    #assert "Congratulations! You have successfully registered!" == welcome_text
-
 finally:
     # закрываем браузер после всех манипуляций
     driver.quit()
