@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T13:45:21.277Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.1.1114 Yowser/2.5 Safari/537.36" etag="bfkstxouUtPzJqcNfSlW" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-21T13:51:54.757Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.1.1114 Yowser/2.5 Safari/537.36" etag="Ngc1piv8SazIHIhyQKSb" version="20.8.20" type="github">
   <diagram name="Page-1" id="2c0d36ab-eaac-3732-788b-9136903baeff">
     <mxGraphModel dx="1194" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -144,6 +144,21 @@
         </mxCell>
         <mxCell id="dRDX644VxxhESd64IkQv-18" value="Отправить ответ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dRDX644VxxhESd64IkQv-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dRDX644VxxhESd64IkQv-20" target="dRDX644VxxhESd64IkQv-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dRDX644VxxhESd64IkQv-20" value="IP адрес отправителя" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dRDX644VxxhESd64IkQv-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dRDX644VxxhESd64IkQv-21" target="dRDX644VxxhESd64IkQv-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dRDX644VxxhESd64IkQv-21" value="Совпадает" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dRDX644VxxhESd64IkQv-23" value="Перенаправить&lt;br&gt;письмо" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
