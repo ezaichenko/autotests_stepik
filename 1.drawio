@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T12:44:02.917Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.1.1114 Yowser/2.5 Safari/537.36" etag="bTnl_6b_PLHmX4zE3g42" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-21T13:45:21.277Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.1.1114 Yowser/2.5 Safari/537.36" etag="bfkstxouUtPzJqcNfSlW" version="20.8.20" type="github">
   <diagram name="Page-1" id="2c0d36ab-eaac-3732-788b-9136903baeff">
     <mxGraphModel dx="1194" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -90,7 +90,17 @@
         <mxCell id="dRDX644VxxhESd64IkQv-1" value="Результат проверки на спам" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dRDX644VxxhESd64IkQv-2" value="Content-Type" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dRDX644VxxhESd64IkQv-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dRDX644VxxhESd64IkQv-2" target="dRDX644VxxhESd64IkQv-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dRDX644VxxhESd64IkQv-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dRDX644VxxhESd64IkQv-2" target="dRDX644VxxhESd64IkQv-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dRDX644VxxhESd64IkQv-2" value="Сообщение содержит" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dRDX644VxxhESd64IkQv-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dRDX644VxxhESd64IkQv-3" target="dRDX644VxxhESd64IkQv-5">
@@ -101,6 +111,39 @@
         </mxCell>
         <mxCell id="dRDX644VxxhESd64IkQv-5" value="Добавить к теме сообщения" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="455" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dRDX644VxxhESd64IkQv-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dRDX644VxxhESd64IkQv-7" target="dRDX644VxxhESd64IkQv-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dRDX644VxxhESd64IkQv-7" value="Угрозу" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dRDX644VxxhESd64IkQv-9" value="Добавить заголовок" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dRDX644VxxhESd64IkQv-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dRDX644VxxhESd64IkQv-11" target="dRDX644VxxhESd64IkQv-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dRDX644VxxhESd64IkQv-11" value="Содержит URL из категорий" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dRDX644VxxhESd64IkQv-13" value="Добавить баллы" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dRDX644VxxhESd64IkQv-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dRDX644VxxhESd64IkQv-15" target="dRDX644VxxhESd64IkQv-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dRDX644VxxhESd64IkQv-15" value="Имя хоста отправителя&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dRDX644VxxhESd64IkQv-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dRDX644VxxhESd64IkQv-16" target="dRDX644VxxhESd64IkQv-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dRDX644VxxhESd64IkQv-16" value="Совпадает/Регулярка" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dRDX644VxxhESd64IkQv-18" value="Отправить ответ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="960" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
